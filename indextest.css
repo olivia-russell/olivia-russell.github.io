@@ -5,25 +5,18 @@
 
 body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	color: #000;
+	color: #000000;
 	background-color: #e8eaed;
-
-
 }
 
 header {
 	height: 100px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #000000;
 	overflow: hidden;
-
 }
 
 h1 {
 	color: #515254;
 	padding-top: 50px;
 	padding-left: 30px;
-
-}
-
-
 }
