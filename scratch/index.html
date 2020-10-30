@@ -1,21 +1,170 @@
 <!doctype html>
+<!-- Thank you to Yong Bakos - Oregon State Cascades -->
+
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Olivia Russell | CS 160</title>
 
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+
+    * {
+	     margin: 0; padding: 0; border: 0; box-sizing: border-box;
+
+    }
+
+    .big-div {
+      height: 650px;
+      width: 100%;
+      display: inline-flex;
+      margin-top: 0px;
+
+    }
+
+    .big-div > div {
+      height: 650px;
+      width: 33.333%;
+    }
+
+    .img-test {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .jumbotron {
+      background-image: url(../pictures/succulent.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: bottom;
+      height: 300px;
+    }
+
+    h1, h4 {
+      padding-top: 40px;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 2px 2px #000000;
+    }
+
+    h4 a {
+      color: #ffffff;
+      text-shadow: 2px 2px #000000;
+    }
+
+    h4 a:hover {
+      color: #000000;
+      text-shadow: 2px 2px #ffffff;
+      text-decoration: none;
+    }
+
+    h1 {
+      padding-top: 70px;
+    }
+
+    body {
+      background-color: #E0AFA0;
+    }
+
+    #small-div1 {
+      background-color: #8A817C;
+    }
+
+    #small-div2 {
+      background-color: #BCB8B1;
+    }
+
+    #small-div3 {
+      background-color: #F4F3EE;
+    }
+
+    .navbar {
+      background-color: #463F3A !important;
+    }
+
+    .container {
+      background-color: #463F3A !important;
+      width: 100% !important;
+      height: 200px;
+      color: #ffffff;
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        max-width: 100% !important;
+      }
+    }
+
+    .div-breaker {
+      width: 100%;
+      height: 100px;
+    }
+
+    </style>
   </head>
+
   <body>
-    <div class="mx-auto" style="margin:1em; padding-left: 2em;">
-      <h1>Scratch Projects</h1>
-        <div class="stratch-one">
-          <iframe src="https://scratch.mit.edu/projects/430444966/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-        </div>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="jumbotron">
+    <h1>Book Q & A</h1>
+  </div>
+
+  <div class="big-div">
+    <div id="small-div1">
+      <iframe src="https://scratch.mit.edu/projects/430444966/embed" allowtransparency="true" width="100%" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <h4><a href="https://scratch.mit.edu/projects/430444966">First Program</a></h4>
     </div>
+    <div id="small-div2">
+      <iframe src="https://scratch.mit.edu/projects/443018994/embed" allowtransparency="true" width="100%" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <h4><a href="https://scratch.mit.edu/projects/443018994/">Snake Game But Only Walls<br />A little buggy but still fun.</a></h4>
+    </div>
+    <div id="small-div3">
+      <iframe src="https://scratch.mit.edu/projects/443038231/embed" allowtransparency="true" width="100%" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <h4><a href="https://scratch.mit.edu/projects/443038231">Traverse Puzzle</a></h4>
+    </div>
+
+  </div>
+<!--
+  <div class="div-breaker">
+
+  </div>
+
+
+  <footer class="container">
+    <p>&copy; COCC 2020-2021</p>
+  </footer>
+//-->
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
   </body>
 </html>
